@@ -1,0 +1,469 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic)
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+a
+    text-decoration: none
+
+button, input
+    outline: none
+    border: none
+    background: none
+
+@mixin button()
+    font-family: 'Ubuntu'
+    font-style: normal
+    font-weight: 700
+    font-size: 20px
+    line-height: 150%
+    text-align: center
+    color: white
+
+@mixin h4()
+    font-family: 'Ubuntu'
+    font-style: normal
+    font-weight: 700
+    font-size: 16px
+    line-height: 150%
+    align-items: center
+    letter-spacing: 1px
+    text-transform: uppercase
+    color: #FFFFFF
+
+@mixin pfoot()
+    font-family: 'Ubuntu'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 160%
+    color: #FFFFFF
+    
+@mixin afoot()
+    font-family: 'Ubuntu'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 160%
+    color: #FFFFFF
+    opacity: 0.6
+    
+  
+
+.section-1
+    width: 100%
+    height: 89vh
+    background-image: url(../../img/background/page-.png)
+    background-size: cover
+    background-position: center
+    header
+        width: 80%
+        height: 52px
+        display: flex
+        justify-content: space-between
+        margin: auto
+        padding-top: 20px
+        align-items: center
+        .header_left
+            width: 45%
+            display: flex
+            justify-content: space-between
+            .nav
+                width: 70%
+                display: flex
+                justify-content: space-between
+                a
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 16px
+                    line-height: 160%
+                    display: flex
+                    align-items: center
+                    color: #424551
+                a:hover 
+                    color: #FF5A30
+        .header_right
+            width: 40%
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .phone, .chat
+                width: 40%
+                display: flex
+                justify-content: space-between
+                align-items: center
+                p
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 150%
+                    display: flex
+                    align-items: center
+                    color: #424551
+                a
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 18px
+                    line-height: 150%
+                    display: flex
+                    align-items: center
+                    color: #1E212C
+    .service_content
+        width: 80%
+        margin: 80px auto
+        .nav_service
+            width: 11%
+            display: flex
+            justify-content: space-between
+            margin-bottom: 40px
+            a
+                &:nth-child(1)
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 150%
+                    color: #424551
+                &:nth-child(3)
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 150%
+                    color: #9A9CA5
+            p
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 150%
+                color: #9A9CA5
+        h1
+            font-family: 'Ubuntu'
+            font-style: normal
+            font-weight: 700
+            font-size: 72px
+            line-height: 130%
+            letter-spacing: 1px
+            color: #1E212C
+            margin-bottom: 24px
+        p
+            font-family: 'Ubuntu'
+            font-style: normal
+            font-weight: 400
+            font-size: 20px
+            line-height: 150%
+            color: #787A80
+
+.section-2
+    width: 100%
+    height: 300vh
+    .construction_content 
+        width: 80%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 120px auto
+        .content_text
+            width: 48%
+            h2
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 700
+                font-size: 32px
+                line-height: 150%
+                color: #1E212C
+            p
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 400
+                font-size: 16px
+                line-height: 160%
+                color: #787A80
+                margin-top: 24px
+                margin-bottom: 48px
+            button
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 44px
+                    text-align: center
+                    letter-spacing: 0.5px
+                    text-transform: uppercase
+                    color: #FF5A30
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    padding: 0px 32px
+                    width: 180px
+                    height: 44px
+                    border: 1px solid #FF5A30
+                    border-radius: 4px
+                    a
+                        color: #FF5A30 
+
+.section-7
+    width: 100%
+    height: 115vh
+    background-size: cover
+    background-position: center
+    background-image: url(../../img/background/sec7.jpg)
+    align-items: center    
+    padding-top: 80px
+    .lastforms
+        width: 35%
+        height: 90%
+        background: #FFFFFF
+        border: 1px solid #E5E8ED
+        box-shadow: 0px 60px 80px -20px rgba(30, 33, 44, 0.16), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05)
+        border-radius: 4px
+        margin: auto
+        margin-left: 55%
+        padding: 2%
+        h2
+            font-family: 'Ubuntu'
+            font-style: normal
+            font-weight: 700
+            font-size: 28px
+            line-height: 150%
+            align-items: center
+            text-align: center
+            color: #1E212C
+            margin-bottom: 24px
+        .name, .phone, .email
+            width: 90%
+            margin: auto
+            input
+                background: #F4F5F7
+                border: 1px solid #D7DADD
+                border-radius: 4px
+                margin: 0 auto
+                margin-top: 8px
+                margin-bottom: 20px
+                width: 100%
+                height: 44px
+                padding-left: 4%
+            p
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 150%
+                color: #424551
+        .message
+            width: 90%
+            margin: auto
+            input
+                height: 66px
+                width: 100%
+                background: #F4F5F7
+                border: 1px solid #D7DADD
+                border-radius: 4px
+                margin-bottom: 20px
+                padding-left: 4%
+            p
+                margin-bottom: 8px
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 150%
+                color: #424551
+        p
+            font-family: 'Ubuntu'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 150%
+            color: #424551
+            width: 90%
+            margin: auto
+            input
+                margin-right: 2%
+        button
+            font-family: 'Ubuntu'
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 44px
+            text-align: center
+            letter-spacing: 0.5px
+            text-transform: uppercase
+            color: #FFFFFF
+            background: #FF5A30
+            border-radius: 4px
+            width: 174px
+            height: 44px
+            display: flex
+            margin: auto
+            flex-direction: column
+            align-items: center
+            margin-top: 24px
+
+            
+footer
+    width: 100%
+    background: #1E212C
+    padding-top: 80px
+    height: 83vh
+    .footer_top
+        width: 80%
+        display: flex
+        justify-content: space-between
+        margin: auto
+        margin-bottom: 49px
+        .top_left
+            width: 45%
+            .logo
+                width: 70%
+                display: flex
+                justify-content: space-between
+                margin-bottom: 24px
+                .logo_social
+                    width: 50%
+                    display: flex
+                    justify-content: space-between
+            p
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 150%
+                color: #FFFFFF
+                opacity: 0.6
+        .top_right
+            width: 45%
+            h3
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 700
+                font-size: 24px
+                line-height: 150%
+                color: #FFFFFF
+                margin-bottom: 24px
+            .email_footer
+                width: 100%
+                display: flex
+                margin-bottom: 16px
+                input
+                    width: 70%
+                    height: 44px
+                    background: rgba(255, 255, 255, 0.12)
+                    border: 1px solid rgba(255, 255, 255, 0.2)
+                    border-radius: 4px
+                    padding-left: 4%
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 150%
+                    color: #FFFFFF
+                    opacity: 0.6
+                button
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 44px
+                    align-items: center
+                    text-align: center
+                    letter-spacing: 0.5px
+                    text-transform: uppercase
+                    color: #FFFFFF
+                    background: #FF5A30
+                    border-radius: 0px 4px 4px 0px
+                    display: flex
+                    align-items: center
+                    padding: 0px 32px
+                    margin-left: -2px
+            p
+                font-family: 'Ubuntu'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 150%
+                align-items: center
+                color: #FFFFFF
+                opacity: 0.6
+    .footer_bottom
+        width: 80%
+        display: flex
+        flex-direction: column
+        margin: auto
+        .bottom_begin
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            margin-bottom: 60px
+            .head_office
+                width: 35%
+                margin-right: 2%
+                h4
+                    @include h4()
+                    margin-bottom: 13px
+                p
+                    @include pfoot()
+                    margin-bottom: 4px
+                    a
+                        @include afoot()
+            .whoweare
+                width: 15%
+                display: flex
+                flex-direction: column
+                margin-right: 3%
+                h4
+                    @include h4()
+                    margin-bottom: 13px
+                a
+                    @include afoot()
+                    margin-bottom: 4px
+            .experience
+                width: 15%
+                display: flex
+                flex-direction: column
+                h4
+                    @include h4()
+                    margin-bottom: 13px
+                a
+                    @include afoot()
+                    margin-bottom: 4px
+        .bottom_end
+            width: 98%
+            display: flex
+            justify-content: space-between
+            .end_left
+                width: 50%
+                display: flex
+                p
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 150%
+                    display: flex
+                    align-items: center
+                    color: #FFFFFF
+                    img
+                        margin: 0 5px 0 5px
+            .end_right
+                width: 11%
+                display: flex
+                justify-content: space-between
+                a
+                    font-family: 'Ubuntu'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 400%
+                    color: #FFFFFF
+                button
+                    background: #FF5A30
+                    border-radius: 4px
+                    width: 40px
+                    height: 40px
+
+                    
